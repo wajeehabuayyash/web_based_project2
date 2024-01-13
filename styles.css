@@ -1,0 +1,102 @@
+*{
+background-color:white;
+overflow-x:hidden;
+
+}
+.body-header img{
+    margin-left:45%;padding-top:1em;
+}
+.nav-bar li{
+display: inline;
+padding-top:0.2em;
+margin-right:0.8em;
+font-size: 20px;
+
+}
+
+img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.nav-bar ul{
+    background-color:#1E90FF;
+    text-align:center;
+
+}
+.nav-bar a{
+    background-color:  #1E90FF;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-bar {
+    background-color:#1E90FF;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 16pt;
+}
+.top-h1{
+    color: white;
+    text-align: center;
+    background-color: #1E90FF;
+}
+.form-form{
+    color: white;
+  
+    }
+    .form-form input{
+    color: white;
+}
+
+fieldset{
+    border-style: groove;
+    border-color: #1E90FF;
+border-width: 0.3em;
+}
+
+.contact-form{
+    text-align: center;    
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery-item {
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.contact-bar {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  #ham:hover{
+    background-color: #1E90FF;
+    color: white;
+}
+
